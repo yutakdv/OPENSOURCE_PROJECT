@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/info.css">
+    <!--페이지 설명-->
+    <title>식당 정보</title>
+    <meta name="description" content="HYU ERICA 주변 식당 정보">
+    <!--부가기능-->
+    <script src="https://kit.fontawesome.com/b7f69e0a07.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="wrapper">
+    <header class="top-bars">
+        <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+            <center><img src="img/logo.jpg" style="width: 150px; height: auto;"></center>
+        </a>
+    </header>
+
+    <main class="main-box">
+        <div class="intro">
+            <h1 class="intro--title">HYU ERICA 주변 식당</h1>
+            <h2 class="intro--sub">한양대학교 ERICA 주변 식당들을 소개합니다.</h2>
+        </div>
+
+        <div class="tag-filters">
+            <div class="tag-filter">
+                <h4 class="tag-filter__title">음식 종류</h4>
+                <div class="tag-filter__tags">
+                    <span class="tag-filter__tag" data-filter="*">모두</span>
+                    <span class="tag-filter__tag" data-filter="한식">한식</span>
+                    <span class="tag-filter__tag" data-filter="일식">일식</span>
+                    <span class="tag-filter__tag" data-filter="양식">양식</span>
+                    <span class="tag-filter__tag" data-filter="중식">중식</span>
+                    <span class="tag-filter__tag" data-filter="고기">고기</span>
+                    <span class="tag-filter__tag" data-filter="기타">기타</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="restaurant-lists">
+            <div class="restaurant-list" data-type="기타"> <!-- data-type: 분류 기능 -->
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#기타</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/31.7.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">31.7</span>
+                    <span class="restaurant-list__textBox__sub">분위기 좋은 비스트로&와인바</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="양식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#양식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/도스마스.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">도스마스</span>
+                    <span class="restaurant-list__textBox__sub">매일 다른 찌개와 두루치기가 집밥처럼 나오는 식당</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="중식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#중식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/마라미방.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">마라미방</span>
+                    <span class="restaurant-list__textBox__sub">아람관 2호점 컵밥집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/명가떡볶이.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">명가떡볶이</span>
+                    <span class="restaurant-list__textBox__sub">치즈 가득 고기 가득 닭갈비집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="양식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#양식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/밀플랜비.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">밀플랜비</span>
+                    <span class="restaurant-list__textBox__sub">고구마무스 치즈 닭갈비에 볶음밥까지</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="일식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#일식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/브라운돈까스.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">브라운 돈까스</span>
+                    <span class="restaurant-list__textBox__sub">가성비 좋은 회전초밥집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="일식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#일식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/성북동경양식.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">성북동경양식</span>
+                    <span class="restaurant-list__textBox__sub">가성비 대박 연어롤</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="양식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#양식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/써니샌드위치클럽.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">써니샌드위치클럽</span>
+                    <span class="restaurant-list__textBox__sub">오므라이스가 맛있는 일식당</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/알촌.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">알촌</span>
+                    <span class="restaurant-list__textBox__sub">후문에서 가장 가까운 돈까스 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="일식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#일식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/유메식당.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">유메식당</span>
+                    <span class="restaurant-list__textBox__sub">엄마의 손맛이 느껴지는 부대찌개 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="일식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#일식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/은화수식당.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">은화수식당</span>
+                    <span class="restaurant-list__textBox__sub">음식, 분위기 모두 다 잡은 예약제 양식집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/일미닭갈비.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">일미 닭갈비</span>
+                    <span class="restaurant-list__textBox__sub">분위기 좋은 이탈리안 레스토랑</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/유가네닭갈비.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">유가네 닭갈비</span>
+                    <span class="restaurant-list__textBox__sub">고퀄리티 인스타 감성 스테이크 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="일식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#일식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/정직유부.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">정직유부</span>
+                    <span class="restaurant-list__textBox__sub">분위기 있는 양식 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="중식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#중식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/조가연마라탕.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">조가연 마라탕</span>
+                    <span class="restaurant-list__textBox__sub">가성비 좋은 족발 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/찌개찌개.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">찌개찌개</span>
+                    <span class="restaurant-list__textBox__sub">돼지목살스테이크와 달걀프라이를 얹은 새우필라프</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="양식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#양식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/포지타노.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">포지타노</span>
+                    <span class="restaurant-list__textBox__sub">밀푀유나베가 땡긴다면?</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="일식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#일식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/한그릇.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">한그릇</span>
+                    <span class="restaurant-list__textBox__sub">고퀄리티 파스타전문 룸 레스토랑</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/91콩삼.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">91콩삼</span>
+                    <span class="restaurant-list__textBox__sub">밥을 비빌 수 밖에 없게 만드는 찜닭 전문점</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/교반.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">교반</span>
+                    <span class="restaurant-list__textBox__sub">가성비 좋고 맛좋은 초밥집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/기찬고기.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">기찬고기</span>
+                    <span class="restaurant-list__textBox__sub">믿고 먹는 돈까스 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/다빱집.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">더빱집</span>
+                    <span class="restaurant-list__textBox__sub">가성비 좋은 돼지고기 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/더치킨.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">THE 치킨</span>
+                    <span class="restaurant-list__textBox__sub">술이 술술 넘어가는 닭요리 전문점</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/돼지우리.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">돼지우리</span>
+                    <span class="restaurant-list__textBox__sub">한 접시당 1500원 가성비 초밥집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/디델리.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">디델리</span>
+                    <span class="restaurant-list__textBox__sub">싸고 맛난 베트남쌀국수 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/미쳐버린파닭.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">미쳐버린 파닭</span>
+                    <span class="restaurant-list__textBox__sub">교수님(조교님)이 자주 출몰하는 국밥 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/밀숲.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">밀숲</span>
+                    <span class="restaurant-list__textBox__sub">다양한 짬뽕을 파는 중식집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="양식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#양식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/버텍스.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">Vertex</span>
+                    <span class="restaurant-list__textBox__sub">콘치즈, 계란과 곁들여 먹는 고깃집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/상황삼계탕.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">상황삼계탕</span>
+                    <span class="restaurant-list__textBox__sub">깔끔한 돈까스&스테이크 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/소담골.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">소담골</span>
+                    <span class="restaurant-list__textBox__sub">무난하게 맛있는 중식집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/신전떡볶이.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">신전떡볶이</span>
+                    <span class="restaurant-list__textBox__sub">맛있는 삼겹살에 무한리필 된장찌개</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="양식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#양식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/앤의식탁.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">앤의 식탁</span>
+                    <span class="restaurant-list__textBox__sub">치즈 돈까스가 맛있는 수제돈가스 전문점</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/오븐에빠진닭.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">오븐에 빠진 닭</span>
+                    <span class="restaurant-list__textBox__sub">가성비 갑 족발 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/유원치킨.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">유원치킨</span>
+                    <span class="restaurant-list__textBox__sub">고기 많이 주는 무난한 돼지국밥</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/육앤샤.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">육앤샤</span>
+                    <span class="restaurant-list__textBox__sub">뒷고기에 볶음밥까지 싸악</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/이서식당.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">이서식당</span>
+                    <span class="restaurant-list__textBox__sub">실패하지 않는 일본가정식 맛집!</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/작렬곱창.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">작렬곱창</span>
+                    <span class="restaurant-list__textBox__sub">일본식 덮밥 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/참새방앗간.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">참새방앗간</span>
+                    <span class="restaurant-list__textBox__sub">깔끔한 중국집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/천사곱창.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">천사곱창</span>
+                    <span class="restaurant-list__textBox__sub">4000원 칼국수에 가성비 안주들까지!</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="기타">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#기타</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/카베레.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">카바레</span>
+                    <span class="restaurant-list__textBox__sub">맵싹한거 땡길때 가면 너무 좋은 땡초김밥</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="기타">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#기타</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/타콕선생의라뗴는말이야.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">타코선생의 라떼는 말이야</span>
+                    <span class="restaurant-list__textBox__sub">퀄리티 좋은 라멘 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/탐나는바지락손칼국수.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">탐나는 바지락 손칼국수</span>
+                    <span class="restaurant-list__textBox__sub">백반이 먹고싶을땐?</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/토마토도시락.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">토마토 도시락</span>
+                    <span class="restaurant-list__textBox__sub">배 터지게 먹는 찜닭 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="양식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#양식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/투파피.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">To find the Peter</span>
+                    <span class="restaurant-list__textBox__sub">집밥이 생각나는 식당</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="양식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#양식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/페페로니버튼.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">페퍼로니버튼</span>
+                    <span class="restaurant-list__textBox__sub">칼칼한 수제비, 칼국수, (돈까스) 맛집</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="기타">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#기타</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/포니향.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">포냐향</span>
+                    <span class="restaurant-list__textBox__sub">6000원 가성비 돼지불고기정식</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/한우궁.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">한우궁</span>
+                    <span class="restaurant-list__textBox__sub">밥 반찬 무한 돼지찌개</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/홀릭핫도그.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">홀릭핫도그</span>
+                    <span class="restaurant-list__textBox__sub">국물맛이 진한 일본라멘 전문점</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/bhc.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">BHC</span>
+                    <span class="restaurant-list__textBox__sub">생과일 왕빙수와 샌드위치가 맛있는 가게</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/큰맘할매순대국.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">큰맘할매순대국</span>
+                    <span class="restaurant-list__textBox__sub">생과일 왕빙수와 샌드위치가 맛있는 가게</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/조박사부대찌개.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">조박사 부대찌개</span>
+                    <span class="restaurant-list__textBox__sub">생과일 왕빙수와 샌드위치가 맛있는 가게</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="한식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#한식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/청학칡냉면.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">청학 칡냉면</span>
+                    <span class="restaurant-list__textBox__sub">생과일 왕빙수와 샌드위치가 맛있는 가게</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="일식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#일식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/청춘막회.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">청춘막회</span>
+                    <span class="restaurant-list__textBox__sub">생과일 왕빙수와 샌드위치가 맛있는 가게</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="중식">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#중식</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/고기짬뽕.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">무안 고기짬뽕</span>
+                    <span class="restaurant-list__textBox__sub">생과일 왕빙수와 샌드위치가 맛있는 가게</span>
+                </div>
+            </div>
+            <div class="restaurant-list" data-type="고기">
+                <div class="restaurant-list__tags">
+                    <span class="restaurant-list__tag">#고기</span>
+                </div>
+                <div class="restaurant-list__imgBox">
+                    <img class="restaurant-list__img" src=img/대학통닭.jpg>
+                </div>
+                <div class="restaurant-list__textBox">
+                    <span class="restaurant-list__textBox__name">대학통닭</span>
+                    <span class="restaurant-list__textBox__sub">생과일 왕빙수와 샌드위치가 맛있는 가게</span>
+                </div>
+            </div>
+        </div>
+        <div class="visitor">
+            <script type="text/javascript" src="https://freecountercode.com/service/4HmVR6xtJApelUCf8ow1"></script>
+        </div>
+    </main>
+</div>
+<a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+<script src="js/filter.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+
+<!-- Contact Javascript File -->
+<script src="mail/jqBootstrapValidation.min.js"></script>
+<script src="mail/contact.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>
