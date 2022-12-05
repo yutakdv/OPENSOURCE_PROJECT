@@ -68,7 +68,7 @@
 - **식당 정보 라이선스**
    ![image](https://user-images.githubusercontent.com/114565362/205672896-2ae7088b-917f-4bb5-8f31-4d3fe21d6796.png)
    ![image](https://user-images.githubusercontent.com/114565362/205673044-6e49f8f1-5197-4798-a1e9-4090b0c4ad4e.png)
-## 페이지 소개 
+## 3. 페이지 소개 
 - ### 메인 페이지
    ![image](https://user-images.githubusercontent.com/114565362/205671622-88f5b006-5516-4dde-8a50-b54d5c3a2866.png)
    
@@ -204,7 +204,7 @@ function reset() {
 
 * * *  
 
-## 3. 반응형 웹페이지
+## 4. 반응형 웹페이지
    ![image](https://user-images.githubusercontent.com/114565362/205681717-d081d399-50a4-4372-b088-00bd29de888a.png)
 * * *
    
