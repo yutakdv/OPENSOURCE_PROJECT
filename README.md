@@ -1,6 +1,7 @@
-# 에슐랭 PROJECT
+# 에슐랭 PROJECT  
 
-## 역할 분담  
+
+## 1. 역할 분담  
 - **최유탁**  
   * 오픈소스를 이용한 JS 기능 구현
     * 식당 정보 스크롤 구현
@@ -24,24 +25,96 @@
   * 담당 페이지
      * 메인 페이지
      * 웹 소개 페이지
+## 2. 라이선스  
+- **템플릿 라이선스**
+<pre>
+<code>
+ => FREE HTML TEMPLATE LICENSE BY HTML Codex
 
-## 페이지 소개  
+ All free HTML templates by HTML Codex are licensed under a Creative Commons Attribution 4.0 International License which means you are not allowed to remove the author뭩 credit link/attribution link/backlink.
+
+ When you download or use our free HTML templates, it will attribute the following conditions.
+
+
+ => YOU ARE ALLOWED
+
+      1. You are allowed to use for your personal and commercial purposes.
+
+      2. You are allowed to modify/customize however you like.
+
+      3. You are allowed to convert/port for use for any CMS.
+
+      4. You are allowed to share/distribute under the HTML Codex brand name.
+
+      5. You are allowed to put a screenshot or a link on your blog posts or any other websites.
+
+
+ => YOU ARE NOT ALLOWED
+
+      1. You are not allowed to remove the author뭩 credit link/attribution link/backlink without purchasing Credit Removal License ( https://htmlcodex.com/credit-removal ).
+
+      2. You are not allowed to sell, resale, rent, lease, license, or sub-license.
+
+      3. You are not allowed to upload on your template websites or template collection websites or any other third party websites without our permission.
+
+ This license can be terminated if you breach any of these conditions.
+
+ Please contact us (https://htmlcodex.com/contact) if you have any query.
+
+ => PURCHASE CREDIT REMOVAL LICENSE ( https://htmlcodex.com/credit-removal )
+ </code>
+ </pre>  
+ 
+- **식당 정보 라이선스**
+   ![image](https://user-images.githubusercontent.com/114565362/205672896-2ae7088b-917f-4bb5-8f31-4d3fe21d6796.png)
+   ![image](https://user-images.githubusercontent.com/114565362/205673044-6e49f8f1-5197-4798-a1e9-4090b0c4ad4e.png)
+## 페이지 소개 
+- ### 메인 페이지
+   ![image](https://user-images.githubusercontent.com/114565362/205671622-88f5b006-5516-4dde-8a50-b54d5c3a2866.png)
+   
+이 페이지는 에슐랭의 메인 페이지입니다.  
+
+아래 4개의 페이지로 이동할수 있습니다.  
+
+- **랜덤 페이지**  
+Random Recommandation에서 Random Restaurant 버튼을 누르면 랜덤 식당 추천 기능을 사용할 수 있는 사이트로 이동합니다.  
+
+- **식당 정보 페이지**   
+Restaurant Information에서 “Click here!” 버튼을 누르게 되면 식당 정보를 확인할 수 있는 사이트로 이동합니다.   
+
+- **제휴 정보 페이지**  
+Affiliation Information에서 각 단과대에서 제휴 확이 버튼을 누르게 되면 바로 단과대별 제휴 업체가 정리된 사이트로 이동합니다.  
+
+- **웹 소개 페이지**  
+Introduce About us & Our website에서 About us에는 팀원들의 이름, 학번, 이메일, 깃 허브 주소가 명시되어 있습니다.  
+가운데에는 저희 웹사이트 로고가 그려져 있습니다.  
+Our Website에는 저희 웹사이트에 대한 설명이 들어가 있습니다.  
+* * *
+
+- ### 웹 소개 페이지
+   ![image](https://user-images.githubusercontent.com/114565362/205671133-3d503ebb-9da4-45f4-9d73-513b3d198093.png)  
+이 페이지는 저희 웹 사이트에 대한 소개가 들어있습니다.  
+
+- Introduce About us & Our website에서 About us에는 팀원들의 이름, 학번, 이메일, 깃 허브 주소가 명시되어 있습니다.  
+- 가운데에는 저희 웹사이트 로고가 그려져 있습니다.  
+- Our Website에는 저희 웹사이트에 대한 설명이 들어가 있습니다.  
+   
 - ### 제휴 페이지    
-   ![image](https://user-images.githubusercontent.com/114565362/205628735-d5536bf5-f5b5-40f8-855e-85916e5a5544.png)
+   ![image](https://user-images.githubusercontent.com/114565362/205671934-8b8eda2e-c0f3-407a-aea5-c66d0160c2a8.png)
 
 이 페이지는 저희 학교 단과대별 제휴 정보를 소개해주는 페이지입니다.  
 구성원 별로 단과대 제휴업체를 아래와 같이 나누어서 정리했습니다.  
 
->김영택(공대, 과기대, 언정대, 경상대)  
-고영준(소융대, 국문대)  
-최유탁(디대, 약대)  
+- 김영택 : 공대, 과기대, 언정대, 경상대
+- 고영준 : 소융대, 국문대
+- 최유탁 : 디대, 약대
 
 위에 정리된 자료를 통해 제휴 정리 1, 2 엑셀 파일을 만들었습니다.  
 각 단과대별 밑에 있는 제휴 확인 버튼을 누르면 위에 정리된 엑셀 파일을 통해 제휴 정보를 확인 할 수 있습니다.
 
 * * *  
 - ### 식당 정보 페이지  
-   ![image](https://user-images.githubusercontent.com/114565362/205629933-3cb715ba-b3c4-491a-8bf9-c32248d59260.png)
+   ![image](https://user-images.githubusercontent.com/114565362/205672124-7eaac557-4503-4ba9-a7df-55bc2b08a328.png)
 
 이 페이지는 한양대학교 에리카 주변 식당 정보를 보여줍니다.   
 https://github.com/JangDongHo - eatGNU Repository에서 코드를 참조하였습니다.  
@@ -53,7 +126,7 @@ https://github.com/JangDongHo - eatGNU Repository에서 코드를 참조하였�
 
 * * *  
 - ### 랜덤 페이지  
-   ![image](https://user-images.githubusercontent.com/114565362/205630638-46bcfbdd-76e8-43ce-8dfb-8da3ea46c177.png)  
+   ![image](https://user-images.githubusercontent.com/114565362/205672646-38fb33ae-f6b8-41fc-8b16-8902f76840d2.png)  
 <pre>
 <code>
 let RestaurantList = ["바비든든","뉴욕버거","이모네","알촌","도스마스","정직유부","은화수식당","포지타노","31.7","명가떡볶이","유메식당","유가네 닭갈비","밀플랜비","찌개찌개","성북동 경양식","한그릇","브라운 돈까스",
@@ -130,25 +203,8 @@ function reset() {
 - 사용자의 편의를 위해서 Home 버튼을 누르게 되면 메인 페이지로 이동하게끔 만들었습니다.
 
 * * *  
-- ### 메인 페이지
-   ![image](https://user-images.githubusercontent.com/114565362/205632228-194ed9a9-d901-4c12-b48f-970df3b84982.png)
-   
-이 페이지는 에슐랭의 메인 페이지입니다.  
 
-아래 4개의 페이지로 이동할수 있습니다.  
-
-- **랜덤 페이지**  
-Random Recommandation에서 Random Restaurant 버튼을 누르면 랜덤 식당 추천 기능을 사용할 수 있는 사이트로 이동합니다.  
-
-- **식당 정보 페이지**   
-Restaurant Information에서 “Click here!” 버튼을 누르게 되면 식당 정보를 확인할 수 있는 사이트로 이동합니다.   
-
-- **제휴 정보 페이지**  
-Affiliation Information에서 각 단과대에서 제휴 확이 버튼을 누르게 되면 바로 단과대별 제휴 업체가 정리된 사이트로 이동합니다.  
-
-- **웹 소개 페이지**  
-Introduce About us & Our website에서 About us에는 팀원들의 이름, 학번, 이메일, 깃 허브 주소가 명시되어 있습니다.  
-가운데에는 저희 웹사이트 로고가 그려져 있습니다.  
-Our Website에는 저희 웹사이트에 대한 설명이 들어가 있습니다.   
-
+## 3. 반응형 웹페이지
+   ![image](https://user-images.githubusercontent.com/114565362/205681717-d081d399-50a4-4372-b088-00bd29de888a.png)
+* * *
    
